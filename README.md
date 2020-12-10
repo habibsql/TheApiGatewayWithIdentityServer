@@ -6,8 +6,7 @@
 - ii) API Gateway
 
 are demonated here.
-
-![IdentityServer4](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/identityserver4.png?raw=true)
+<img alt="IdentityServer4" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/identityserver4.png" height="300" width="700px">
 
 ##### Identity Server4:
 Identity Server4 is an OpenIDConnect and OAth2.0 framework for ASPNET Core
@@ -21,8 +20,7 @@ Identity Server4 is an OpenIDConnect and OAth2.0 framework for ASPNET Core
 * Support Dotnet foundation.
 * Apachi2 licence
 
-
-![IdentityServer4](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/apigateway.jpg?raw=true)
+<img alt="IdentityServer4" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/apigateway.jpg" height="300" width="700px">
 ##### API Gateway:
 Take all API calls from clients, then route them to the appropriate microservices with request routing, composition
 and  protocol translation. Typically it handles a request by invoking multiple microservices and aggregate the results.
@@ -41,10 +39,10 @@ It can translate between Web protocol. It invoke various services like product i
 * IdentityServer4
 * Ocelot API gateway
 
-![Get-Token](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get-token.jpg?raw=true)
+<img alt="Token" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get-token.jpg" height="500" width="800px">
 
-![API-1](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get1.jpg?raw=true)
+<img alt="API-1" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get1.jpg" height="500" width="800px">
 
-![API-2](https://github.com/habibsql/TheCSharp/blob/main/docs/get2.jpg?raw=true)
+<img alt="API-2" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get2.jpg" height="500" width="800px">
 
-![API-3](https://github.com/habibsql/TheCSharp/blob/main/docs/merge.jpg?raw=true)
+<img alt="API-3" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/merge.jpg" height="500" width="800px">
