@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer", "AuthServer\AuthServer.csproj", "{5C8EE601-34B5-43E5-B65E-54E480F657A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApi", "Ocelot\OcelotApi.csproj", "{08BF9734-386E-443B-BDE2-9C2E40614228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{3CAFDF38-F32A-4D6F-A1F6-10A868A27EF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C8EE601-34B5-43E5-B65E-54E480F657A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8EE601-34B5-43E5-B65E-54E480F657A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8EE601-34B5-43E5-B65E-54E480F657A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8EE601-34B5-43E5-B65E-54E480F657A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BF9734-386E-443B-BDE2-9C2E40614228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BF9734-386E-443B-BDE2-9C2E40614228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BF9734-386E-443B-BDE2-9C2E40614228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BF9734-386E-443B-BDE2-9C2E40614228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAFDF38-F32A-4D6F-A1F6-10A868A27EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAFDF38-F32A-4D6F-A1F6-10A868A27EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAFDF38-F32A-4D6F-A1F6-10A868A27EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAFDF38-F32A-4D6F-A1F6-10A868A27EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4A2D12D-EB21-487E-800C-9D42A25B14D6}
+	EndGlobalSection
+EndGlobal
