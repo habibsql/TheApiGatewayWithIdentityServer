@@ -1,4 +1,4 @@
-### TheApiGateway-With-IdentityServer
+### The-ApiGateway-With-IdentityServer
 
 2 very important components for Microservice based architecture
 
@@ -7,7 +7,7 @@
 
 are demonated here.
 
-![IdentityServer4](https://github.com/habibsql/TheCSharp/blob/main/docs/identityserver4.png?raw=true)
+![IdentityServer4](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/identityserver4.png?raw=true)
 
 ##### Identity Server4:
 Identity Server4 is an OpenIDConnect and OAth2.0 framework for ASPNET Core
@@ -22,7 +22,7 @@ Identity Server4 is an OpenIDConnect and OAth2.0 framework for ASPNET Core
 * Apachi2 licence
 
 
-![IdentityServer4](https://github.com/habibsql/TheCSharp/blob/main/docs/apigateway.jpg?raw=true)
+![IdentityServer4](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/apigateway.jpg?raw=true)
 ##### API Gateway:
 Take all API calls from clients, then route them to the appropriate microservices with request routing, composition
 and  protocol translation. Typically it handles a request by invoking multiple microservices and aggregate the results.
@@ -41,9 +41,9 @@ It can translate between Web protocol. It invoke various services like product i
 * IdentityServer4
 * Ocelot API gateway
 
-![Get-Token](https://github.com/habibsql/TheCSharp/blob/main/docs/get-token.jpg?raw=true)
+![Get-Token](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get-token.jpg?raw=true)
 
-![API-1](https://github.com/habibsql/TheCSharp/blob/main/docs/get1.jpg?raw=true)
+![API-1](https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get1.jpg?raw=true)
 
 ![API-2](https://github.com/habibsql/TheCSharp/blob/main/docs/get2.jpg?raw=true)
 
