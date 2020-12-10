@@ -14,7 +14,8 @@
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
-      }
+      },
+      "Key": "normal-todo"
     },
     {
       "DownstreamPathTemplate": "/todo/idname/{id}/{name}",
@@ -31,6 +32,32 @@
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
       }
+    },
+    {
+      "DownstreamPathTemplate": "/todo/best",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/todo/best",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "Key": "best-todo"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "normal-todo",
+        "best-todo"
+      ],
+      "upstreamPathTemplate": "/api/normal-best"
     }
   ],
   "GlobalConfiguration": {

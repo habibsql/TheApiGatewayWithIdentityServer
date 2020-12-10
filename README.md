@@ -46,3 +46,5 @@ It can translate between Web protocol. It invoke various services like product i
 ![API-1](https://github.com/habibsql/TheCSharp/blob/main/docs/get1.jpg?raw=true)
 
 ![API-2](https://github.com/habibsql/TheCSharp/blob/main/docs/get2.jpg?raw=true)
+
+![API-3](https://github.com/habibsql/TheCSharp/blob/main/docs/merge.jpg?raw=true)

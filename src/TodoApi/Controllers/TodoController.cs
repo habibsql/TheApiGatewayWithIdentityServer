@@ -32,5 +32,16 @@
         {
             return $"Todo-{X}-{Y}";
         }
+
+        [HttpGet("best")]
+        public IEnumerable<Todo> GetBestTodos()
+        {
+            return new[]
+            {
+                new Todo{Id = "4",Title = "Todo-4"},
+                new Todo{Id = "5",Title = "Todo-5"},
+            };
+
+        }
     }
 }
