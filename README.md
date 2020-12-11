@@ -1,11 +1,11 @@
 ### The-ApiGateway-With-IdentityServer
 2 very important components for Microservice based architecture:
 - i) Authentication/Authorization server
-- ii) API Gateway
+- ii) API Gateway/Ocelot
 <br/>are demonated here:
-<br/> - Authentication server is used here for generating jwt token. Based on that token, API gateway exposed endpoint can be called.
-<br/> - API Gateway exposed endpoints publicly to consume that private endpoints.
-<br/>
+<br/>- Authentication server is used here for generating jwt token. Based on that token, API gateway exposed endpoint can be called.
+<br/>- API Gateway exposed endpoints publicly to consume that private endpoints.
+
 <img alt="IdentityServer4" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/identityserver4.png" height="300" width="500px">
 
 #### Identity Server4:
@@ -55,22 +55,22 @@ It can translate between Web protocol. It invoke various services like product i
 **Note**: 
 - If you call API gateway exposed endpoints (Ocelot project) without valid token you will get 401 unauthorized error
 - If you call directly TodoApi endpoints (TodoApi project) you can get data without any token.
-- Senario is: your Todo project endpoinsts will be private network and not exposed outside the network. But your Ocelot
-project will be exposed outside network (with authentication).
-- Hope you the real usecase understand. (Please check the POSTMAN screenshot bellow:)
+- Scenario: Todo project endpoinsts will be in any private networks and not exposed outside the network. But your Ocelot
+project(API gateway project) will be exposed publicly (with authentication).
+- Hope you understand the real usecase (Please check the POSTMAN screenshot bellow).
 
 **Collect Jwt Token**:
 <br>
-<img alt="Token" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get-token.jpg" height="300" width="500px">
+<img alt="Token" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get-token.jpg" height="300" width="550px">
 
 **Single API call (without any parameters) with exposed API gateway endpoints (return array of Todo objects)**:
 <br>
-<img alt="API-1" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get1.jpg" height="300" width="500px">
+<img alt="API-1" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get1.jpg" height="300" width="550px">
 
 **Single API call (with parameters) with exposed API gateway endpoints (return String)**:
 <br>
-<img alt="API-2" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get2.jpg" height="300" width="500px">
+<img alt="API-2" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/get2.jpg" height="300" width="550px">
 
 **Single API call with exposed API gateway endpoints which return and merged data with 2 API call**:
 <br>
-<img alt="API-3" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/merge.jpg" height="300" width="500px"/>
+<img alt="API-3" src="https://github.com/habibsql/TheApiGatewayWithIdentityServer/blob/main/docs/merge.jpg" height="300" width="550px"/>
